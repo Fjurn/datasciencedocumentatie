@@ -52,9 +52,18 @@ ___
 - Bullet lists met - , of
 * Bullet lists met * 
 - Lijnen onder tekst of headers met ___ of ---
-- *Cursief*, **dikgedrukt** of ***allebei*** of ~~doorgestreept~~ ``anders geplaatst``
+- *Cursief*, **dikgedrukt** of ***allebei*** of ~~doorgestreept~~ ``code blok``
 ```
-~~~ *Cursief* **dikgedrukt** of ***allebei*** of ~~doorgestreept~~ ``anders geplaatst``
+- *Cursief* **dikgedrukt** of ***allebei*** of ~~doorgestreept~~ ``code blok``
+```
+- Tabellen:
+|---|---|---|
+|tekst 1 | tekst 2 | tekst 3|
+|tekst 11| tekst 22| tekst 33|
+```
+|---|---|---|
+|tekst 1 | tekst 2 | tekst 3|
+|tekst 11| tekst 22| tekst 33|
 ```
 ___
 ### Soorten analyses

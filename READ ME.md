@@ -57,9 +57,10 @@ ___
 - *Cursief* **dikgedrukt** of ***allebei*** of ~~doorgestreept~~ ``code blok``
 ```
 - Tabellen:
-|---|---|---|
-|tekst 1 | tekst 2 | tekst 3|
-|tekst 11| tekst 22| tekst 33|
+|kop 1 | kop 2 | kop 3 |
+|---|---|-----------|
+|tekst 1 | tekst 2 | tekst 3 |
+|tekst 11 | tekst 22 | tekst 33|
 ```
 |---|---|---|
 |tekst 1 | tekst 2 | tekst 3|

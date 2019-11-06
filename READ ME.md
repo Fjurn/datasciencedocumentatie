@@ -48,8 +48,14 @@ De volgende commands komen naar voren:
 - date	(weergeeft de datum)
 ___
 ### Markdown (uitgelegd in Markdown)
-Headers kunnen gedaan worden met #, de meer # gebruikt worden de kleiner de header wordt
-{1+1}
+- Headers kunnen gedaan worden met #, de meer # gebruikt worden de kleiner de header wordt
+- Bullet lists met - , of
+* Bullet lists met * 
+- Lijnen onder tekst of headers met ___ of ---
+- *Cursief*, **dikgedrukt** of ***allebei*** of ~~doorgestreept~~ ``anders geplaatst``
+```
+~~~ *Cursief* **dikgedrukt** of ***allebei*** of ~~doorgestreept~~ ``anders geplaatst``
+```
 ___
 ### Soorten analyses
 Descriptive

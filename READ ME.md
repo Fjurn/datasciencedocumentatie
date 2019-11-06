@@ -48,6 +48,8 @@ De volgende commands komen naar voren:
 - date	(weergeeft de datum)
 ___
 ### Markdown (uitgelegd in Markdown)
+Headers kunnen gedaan worden met #, de meer # gebruikt worden de kleiner de header wordt
+{1+1}
 ___
 ### Soorten analyses
 Descriptive

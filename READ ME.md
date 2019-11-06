@@ -48,4 +48,48 @@ De volgende commands komen naar voren:
 - date	(weergeeft de datum)
 ___
 ### Markdown (uitgelegd in Markdown)
+___
+### Soorten analyses
+Descriptive
+- Het beschrijven van de data set, je maakt nog geen beslissingen over de data. 
+- Je geeft hier aan wat je ziet in de data zonder daar verder op in te gaan of verder op in te denken.
+- Voorbeeld hiervan is weergave van een bevolking gesplitst in man en vrouw.
+
+Exploratory
+- Relaties vinden die je vooraf nog niet kende, maar nog niet zeggen dat ze volledig kloppen. Handig om in de toekomst verder in te spelen op de connectie.
+- Wordt meestal niet als hoofdvraag gezien en ook liever niet gebruikt voor voorspellen en generaliseren. 
+- Voorbeeld hiervan is kijken of verschillende delen van het brein oplichten (ahv foto’s van het brein) bij bepaalde events in het lichaam of van buitenaf. Enkel het kijken of er iets gebeurt, maar nog niet verder ingaan waarom iets gebeurt.
+
+Inferential
+- Het gebruiken van een studie of data van een kleine populatie naar een grote populatie.
+- Gebruikt voor statistieken.
+- Voorbeeld hiervan is vervuiling bij berekenen in heel Amerika op basis data uit ¼ van de provincies. 
+
+Predictive
+- Het gebruiken van data van x voor y. Belangrijk is hier dat wanneer x een voorspelling is van y, dat x niet gelijk y veroorzaakt.
+- Het voorspellen op deze manier is heel lastig, al helemaal omdat het niet altijd accuraat is en niet waar hoeft te zijn.
+- Een veel voorkomend voorbeeld hiervan is dat een supermarkt een vader benaderde dat haar dochter zwanger was terwijl hij dat nog niet wist.
+
+Causal
+- Het achterhalen van wat er gebeurt als je variabelen veranderd.
+- Een gegeven voorbeeld hiervan is een studie naar hoe je lichaam reageert op het transplanteren van ontlasting tussen verschillende mensen, om zo de bacteriën in de dikke darm te beïnvloeden.
+
+Mechanistic
+- Inzicht krijgen in de exacte veranderingen van variabelen die leiden tot wijzigingen in andere variabelen voor individuele objecten.
+___
+### Handige functies
+___
+### Solver
+Met de solver functionaliteit kan je gemakkelijk formules testen of automatisch laten uitrekenen. Door middel van een formule, een start bedrag en een hoeveelheid aan jaren kan je bijvoorbeeld uitrekenen hoeveel jaar het duurt om van €1000 naar €5000 te gaan met 7% rente per jaar. De solver rekent het precies uit tot in vele comma’s, wat exacter en sneller is dan het zelf uit te moeten rekenen.
+
+Voorbeeld:
+- Formule = D8*(1+C3)^C4
+- 1000*(1+0,07)^10
+- Met solver kan je een einddoel instellen voor y met als variabele het aantal jaren C4
+- Dan vul je de juiste waarden in het pop up scherm
+- En komt er 23,78 jaren uit
+
+___
+### Monty Hall
+
 

@@ -13,7 +13,10 @@ Aan de hand van Github kan je heel gemakkelijk aan versiebeheer doen, alleen of 
 Tot slot de verschillende uitwerkingen (niet het goeie nederlandse woord sorry) waar je data science voor kunt gebruiken.
 ___
 ### Introductie tot Mastering Data Analysis in Excel
+Dit is een vrij onhandig gekozen course, helaas. Ik had er verwachtingen bij dat ik wat meer met echt data aan de slag kon gaan en daar vervolgens formules op af kon gooien. Helaas was dit dus niet het geval en was het merendeel vrij wiskundig, iets wiskundiger dan ik had gedacht. Hierdoor snapte ik van een groot deel van de course eigenlijk vrij weinig. Het was ook algebra in plaats van wiskunde, dus net een tandje hoger nog dan wat je normaal gebruikt. Al met al heb ik wel alle toetsen gehaald, met moeite en meerdere keren proberen. De course werd aan de hand van filmpjes gegeven met elke week 2 of 3 quizes, waarvan alleen de laatste meetelt voor een punt. Voor bijna elk probleem is een spreadsheet gemaakt en de tests worden aan de hand van deze spreadsheets gegeven en uitgevoerd. 
 
+
+Ik snap het nut wel in van de course, maar voor 40 uur is het te weinig om het te kunnen gebruiken, met alles opzoeken wat dat nou precies is.
 ___
 ### Git Commands
 Volgende commands komen naar voren:
@@ -87,6 +90,7 @@ Mechanistic
 - Inzicht krijgen in de exacte veranderingen van variabelen die leiden tot wijzigingen in andere variabelen voor individuele objecten.
 ___
 ### Handige functies
+De basis van Excel is natuurlijk de hoeveelheid formules die ze hebben, de course begint gelukkig makkelijk met het gebruik van average, min, max, correl en stdev, die je gewoon uit kan voeren en dan zie je het antwoord. Later in de course komen er moeilijkere formules voorbij die je aan de hand van log moet samenstellen en eigenlijk zonder Excel te lastig zijn om uit te rekenen. Een belangrijk onderdeel is natuurlijk het visualiseren van de data die je hebt, hiervoor is charting een van de belangrijkste en bekendste functies van Excel. Voor elke soort data is er wel een soort grafiek aanwezig. Tot slot kan je door middel van een ` (naast de 1) een formule in de cel weergeven zonder deze uit te voeren, een soort codeblock eigenlijk.
 ___
 ### Solver
 Met de solver functionaliteit kan je gemakkelijk formules testen of automatisch laten uitrekenen. Door middel van een formule, een start bedrag en een hoeveelheid aan jaren kan je bijvoorbeeld uitrekenen hoeveel jaar het duurt om van €1000 naar €5000 te gaan met 7% rente per jaar. De solver rekent het precies uit tot in vele comma’s, wat exacter en sneller is dan het zelf uit te moeten rekenen.
@@ -97,8 +101,20 @@ Voorbeeld:
 - Met solver kan je een einddoel instellen voor y met als variabele het aantal jaren C4
 - Dan vul je de juiste waarden in het pop up scherm
 - En komt er 23,78 jaren uit
+___
+### Confusion Matrix
+Een belangrijk onderdeel van data analysis is dat je aan de hand van oude informatie voorspellingen kan doen voor de toekomst. Om dit uit te leggen kan je de confusion matrix gebruiken. Er zijn hier 2 dingen die meetellen, wat is er voorspelt en wat is waarheid met elk van de twee dat deze positief of negatief kan zijn. Hiermee kan je achteraf zien of een voorspelling uitkwam. Gaf je aan dat de uitkomst van coin flip geen munt zou zijn, dan zou je True Negative scoren. Bij correct gokken van wel munt zou er True Positive uitkomen. Bij wel munt maar gokken voor geen munt, zou er False Positive uitkomen en bij wel munt gokken waar geen munt uitkomt False Negative. 
 
+Op grote schaal kan je de confusion matrix bijvoorbeeld toepassen bij het achterhalen van kanker bij mensen, waardoor er bijvoorbeeld bespaard kan worden op de kosten van de tests naar of iemand het heeft.
 ___
 ### Monty Hall
+Het Monty Hall probleem komt voort uit het Amerikaanse tv programma Let's make a deal, hierbij mogen deelnemers een van de drie deuren kiezen die voor hen staan. Een van deze deuren heeft een prijs en twee dus niet. De deelnemer kiest eerst een deur, bijv deur A. Vervolgens vertelt de presentator dat hij 1 deur openmaakt, waar niet de prijs achter zit, maar dit is niet jouw deur. Dus deur B gaat open, A en C zijn nog dicht. Vervolgens krijg je de kans om te mogen switchen. Blijf je bij je keus van deur A of stap je over naar deur C.
+
+Begin van het spel is er een 1/3 kans om te winnen omdat je verder geen kennis hebt over de deuren. De presentator elimineert een van de deuren waar niets achter zit, dit kan nooit jouw deur zijn. Het is niet raar dat gedacht wordt dat de kans nu 50/50 is, omdat het gaat over 2 deuren. Echter is de kans nog steeds 1/3 dat de prijs achter deur 1 zit. De kans van de geopende deur verplaatst zich naar de nog niet geopende deur, dus wordt 2/3. 
+
+Het gaat erom dat de deur die open gaat, precies uitgekozen is, want 2 deuren mogen niet geopend worden, degene die gekozen is en degene die de prijs heeft. De kans is groter dat de deur die gekozen is niet de prijs heeft dan wel, dus moet er in dat geval altijd de andere lege deur geopend worden. 
+
+Voor meer info:
+https://www.coursera.org/learn/analytics-excel/lecture/ibNmv/the-monty-hall-problem
 
 
